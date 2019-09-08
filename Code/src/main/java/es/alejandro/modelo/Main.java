@@ -13,7 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/es/alejandro/interfaces/sample.fxml"));
         Scene scene = new Scene(root);
 
         primaryStage.setScene(scene);
@@ -22,6 +22,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+
         launch(args);
     }
 }
