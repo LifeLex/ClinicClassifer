@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="844.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.alejandro.modelo.MainUIController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="258.0" text="It works" />
+      <Label layoutX="56.0" layoutY="68.0" prefHeight="21.0" prefWidth="132.0" text="Nombre Paciente" />
+      <JFXTextField layoutX="188.0" layoutY="53.0" prefHeight="31.0" prefWidth="449.0" />
+      <JFXTextArea layoutX="48.0" layoutY="100.0" prefHeight="681.0" prefWidth="599.0" />
+   </children>
+</AnchorPane>

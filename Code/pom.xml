@@ -46,6 +46,17 @@
             <version>5.4.4.Final</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.jfoenix</groupId>
+            <artifactId>jfoenix</artifactId>
+            <version>8.0.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+            <version>7.3.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

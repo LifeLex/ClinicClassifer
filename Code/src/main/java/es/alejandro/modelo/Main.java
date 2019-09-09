@@ -12,8 +12,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        //System.out.println(getClass().getResource("es/alejandro/interfaces/sample.fxml").getPath());
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("es/alejandro/interfaces/sample.fxml"));
+        //System.out.println(getClass().getResource("es/alejandro/interfaces/loginUI.fxml").getPath());
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("view/loginUI.fxml"));
         Scene scene = new Scene(root);
 
         primaryStage.setScene(scene);
@@ -22,6 +22,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+
         launch(args);
     }
 }
